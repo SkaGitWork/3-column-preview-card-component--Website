@@ -1,0 +1,31 @@
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  html {
+    font-size: 18px;
+  }
+
+  .main {
+    padding: 3rem 3rem;
+  }
+
+  .wrapper {
+    text-align: center;
+  }
+
+  .content {
+    margin: 3rem 24vw;
+  }
+
+  .heading {
+    display: inline-block;
+    margin: 0;
+  }
+
+  .tablet-layout {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    margin-bottom: 1.5rem;
+  }
+}

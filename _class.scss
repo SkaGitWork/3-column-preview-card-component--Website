@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+
+$bg_color: hsl(0, 0%, 95%);
+$card_bg_color_1: hsl(31, 77%, 52%);
+$card_bg_color_2: hsl(184, 100%, 22%);
+$card_bg_color_3: hsl(179, 100%, 13%);
+
+$heading_color: white;
+$paragraph_color: hsla(0, 0%, 100%, 0.75);
+
+$button_color: hsla(0, 0%, 100%, 0);
+$button_bg_color: hsl(0, 0%, 95%);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Big Shoulders Display", cursive;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+html {
+  font-size: 15px;
+}
+body {
+  background-color: $bg_color;
+}
+
+// Cards
+.card--orange {
+  background-color: $card_bg_color_1;
+}
+.card--cyan {
+  background-color: $card_bg_color_2;
+}
+.card--dark-cyan {
+  background-color: $card_bg_color_3;
+}
+
+// Text
+.heading {
+  font-size: 2rem;
+  font-family: "Big Shoulders Display";
+  color: $heading_color;
+  text-transform: uppercase;
+}
+.paragraph {
+  color: $paragraph_color;
+  font-family: "Lexend Deca";
+}
+
+// Button
+.btn {
+  border-radius: 2rem;
+  border: 3px solid rgb(255, 255, 255);
+
+  padding: 0.8rem 1.7rem;
+
+  background-color: $button_bg_color;
+  color: $button_color;
+  font-size: 1rem;
+}
+.btn-color--orange {
+  color: $card_bg_color_1;
+}
+.btn-color--cyan {
+  color: $card_bg_color_2;
+}
+.btn-color--drak-cyan {
+  color: $card_bg_color_3;
+}

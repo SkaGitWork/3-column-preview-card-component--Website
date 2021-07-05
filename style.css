@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Big Shoulders Display", cursive;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+html {
+  font-size: 15px;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+.card--orange {
+  background-color: #e38826;
+}
+
+.card--cyan {
+  background-color: #006970;
+}
+
+.card--dark-cyan {
+  background-color: #004241;
+}
+
+.heading {
+  font-size: 2rem;
+  font-family: "Big Shoulders Display";
+  color: white;
+  text-transform: uppercase;
+}
+
+.paragraph {
+  color: rgba(255, 255, 255, 0.75);
+  font-family: "Lexend Deca";
+}
+
+.btn {
+  border-radius: 2rem;
+  border: 3px solid white;
+  padding: 0.8rem 1.7rem;
+  background-color: #f2f2f2;
+  color: rgba(255, 255, 255, 0);
+  font-size: 1rem;
+}
+
+.btn-color--orange {
+  color: #e38826;
+}
+
+.btn-color--cyan {
+  color: #006970;
+}
+
+.btn-color--drak-cyan {
+  color: #004241;
+}
+
+/* ---------------------------------- Style --------------------------------- */
+.main {
+  padding: 5rem 1.5rem;
+}
+
+.wrapper {
+  overflow: hidden;
+  border-radius: 0.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.content {
+  margin: 3rem;
+}
+
+.heading {
+  margin: 2rem 0;
+}
+
+.paragraph {
+  line-height: 1.5rem;
+}
+
+.btn {
+  margin: 2rem 0 0;
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  html {
+    font-size: 18px;
+  }
+  .main {
+    padding: 3rem 3rem;
+  }
+  .wrapper {
+    text-align: center;
+  }
+  .content {
+    margin: 3rem 24vw;
+  }
+  .heading {
+    display: inline-block;
+    margin: 0;
+  }
+  .tablet-layout {
+    width: 75%;
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-bottom: 1.5rem;
+  }
+}
+
+/* --------------------------------- Desktop -------------------------------- */
+@media only screen and (min-width: 1024px) {
+  html {
+    font-size: 17px;
+  }
+  .main {
+    padding: 10rem 12rem;
+  }
+  .wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 100%;
+  }
+  .card {
+    padding: 0;
+    width: 100%;
+  }
+  .content {
+    width: 14rem;
+    margin: 3rem;
+  }
+  .paragraph {
+    line-height: 1.8rem;
+  }
+  .btn {
+    margin: 5rem 0 0;
+  }
+  .btn:hover {
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+  }
+}
+
+@media only screen and (min-width: 1023px) and (max-width: 1439px) {
+  html {
+    font-size: 13.5px;
+  }
+  .main {
+    padding: 5rem 10vw;
+  }
+}
+/*# sourceMappingURL=style.css.map */

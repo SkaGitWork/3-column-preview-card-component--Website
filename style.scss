@@ -1,0 +1,34 @@
+@import "./class";
+/* ---------------------------------- Style --------------------------------- */
+.main {
+  padding: 5rem 1.5rem;
+
+}
+
+.wrapper {
+  overflow: hidden;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+// Content
+.content {
+  margin: 3rem;
+}
+
+// Text
+.heading {
+  margin: 2rem 0;
+}
+
+.paragraph {
+  line-height: 1.5rem;
+}
+
+.btn{
+  margin: 2rem 0 0;
+}
+
+@import "./tablet";
+@import "./desktop";

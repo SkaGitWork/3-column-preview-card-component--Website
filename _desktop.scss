@@ -1,0 +1,51 @@
+/* --------------------------------- Desktop -------------------------------- */
+@media only screen and (min-width: 1024px) {
+  html {
+    font-size: 17px;
+  }
+
+  .main {
+    padding: 10rem 12rem;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .card{
+    padding: 0;
+    width: 100%;
+}
+
+  // Content
+  .content {
+    width: 14rem;
+    margin: 3rem;
+  }
+
+  .paragraph {
+    line-height: 1.8rem;
+  }
+
+  .btn {
+    margin: 5rem 0 0;
+
+    &:hover{
+      background-color: rgba(255, 255, 255, 0);
+      color: white;
+    }
+  }
+}
+
+@media only screen and (min-width: 1023px) and (max-width: 1439px) {
+  html {
+    font-size: 13.5px;
+  }
+
+  .main {
+    padding: 5rem 10vw;
+  }
+
+}
