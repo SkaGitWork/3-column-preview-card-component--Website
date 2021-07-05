@@ -26,8 +26,8 @@ Users should be able to:
 ### Screenshot
 
 ![](desktop-ss.png)
-![](mobile-ss.png)
 ![](tablet-ss.png)
+![](mobile-ss.png)
 
 ### Links
 
